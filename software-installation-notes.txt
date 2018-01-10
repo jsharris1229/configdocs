@@ -1,0 +1,104 @@
+
+*********************************************************
+***** wget installation *********************************
+*********************************************************
+
+892 11:00 /ColmarAcademy:>brew install wget
+==> Installing dependencies for wget: gettext, libunistring, libidn2, openssl@1.1
+==> Installing wget dependency: gettext
+==> Downloading https://homebrew.bintray.com/bottles/gettext-0.19.8.1.high_sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring gettext-0.19.8.1.high_sierra.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD gettext library & some software gets confused if both are in the library path.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/usr/local/opt/gettext/lib
+    CPPFLAGS: -I/usr/local/opt/gettext/include
+
+==> Summary
+🍺  /usr/local/Cellar/gettext/0.19.8.1: 1,935 files, 16.9MB
+==> Installing wget dependency: libunistring
+==> Downloading https://homebrew.bintray.com/bottles/libunistring-0.9.8.high_sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring libunistring-0.9.8.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/libunistring/0.9.8: 53 files, 4.4MB
+==> Installing wget dependency: libidn2
+==> Downloading https://homebrew.bintray.com/bottles/libidn2-2.0.4.high_sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring libidn2-2.0.4.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/libidn2/2.0.4: 46 files, 580.6KB
+==> Installing wget dependency: openssl@1.1
+==> Downloading https://homebrew.bintray.com/bottles/openssl@1.1-1.1.0g.high_sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring openssl@1.1-1.1.0g.high_sierra.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+This formula is keg-only, which means it was not symlinked into /usr/local,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/usr/local/opt/openssl@1.1/lib
+    CPPFLAGS: -I/usr/local/opt/openssl@1.1/include
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.0g: 6,585 files, 15.6MB
+==> Installing wget
+==> Downloading https://homebrew.bintray.com/bottles/wget-1.19.2_1.high_sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring wget-1.19.2_1.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/wget/1.19.2_1: 50 files, 3.8MB
+
+
+*********************************************************
+***** node (npm) installation ***************************
+*********************************************************
+
+1041 11:03 /ColmarAcademy:>brew install node
+==> Installing dependencies for node: icu4c
+==> Installing node dependency: icu4c
+==> Downloading https://homebrew.bintray.com/bottles/icu4c-60.2.high_sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring icu4c-60.2.high_sierra.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides libicucore.dylib (but nothing else).
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/usr/local/opt/icu4c/bin:$PATH"' >> ~/.bash_profile
+  echo 'export PATH="/usr/local/opt/icu4c/sbin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/usr/local/opt/icu4c/lib
+    CPPFLAGS: -I/usr/local/opt/icu4c/include
+
+==> Summary
+🍺  /usr/local/Cellar/icu4c/60.2: 249 files, 67MB
+==> Installing node
+==> Downloading https://homebrew.bintray.com/bottles/node-9.3.0_1.high_sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring node-9.3.0_1.high_sierra.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/node/9.3.0_1: 5,125 files, 49.6MB
+
+
+
+*********************************************************
+***** xxx installation ***************************
+*********************************************************

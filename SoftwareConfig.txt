@@ -1,0 +1,32 @@
+MacOS Software Configuration
+
+Browsers
+   Chrome
+   Firefox
+Xcode (from Appstore)
+
+Bash configuration (see bash_profile), which is also preserved
+  on github.
+  
+----- lesscss installation ------------
+1. Install Command Line Tools for Xcode
+
+   xcode-select --install
+
+2. Install HomeBrew
+
+   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+3. Install npm (Node.js)
+
+  brew install node
+
+4. Install LessCSS
+
+   sudo npm install -g less
+-----------------
+
+Homebrew
+  wget
+npm (node package manager)
+lessc
